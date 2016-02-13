@@ -45,6 +45,11 @@ class Apns extends AbstractApnsGcm
 
     public $logger = 'bryglen\apnsgcm\ApnsLog';
 
+	public function __construct($env,$pem){
+	        $this->environment = $env;
+	        $this->pemFile = $pem;
+	    }
+
     public function init()
     {
         if (!in_array($this->environment, [self::ENVIRONMENT_SANDBOX, self::ENVIRONMENT_PRODUCTION])) {
