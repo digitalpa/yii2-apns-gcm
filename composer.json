@@ -1,5 +1,5 @@
 {
-    "name": "bryglen/yii2-apns-gcm",
+    "name": “garixi/yii2-apns-gcm",
     "description": "Yii 2 Apns and Gcm together",
     "type": "yii2-extension",
     "version": "1.0.3",
@@ -9,6 +9,10 @@
         {
             "name": "Bryan Jayson Tan",
             "email": "bryantan16@gmail.com"
+        },
+	{
+            "name": “Giovanni Arixi“,
+            "email": “garixi@cuoriilabs.com”
         }
     ],
     "require": {
