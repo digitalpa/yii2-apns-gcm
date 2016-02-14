@@ -2,7 +2,7 @@
     "name": "garixi/yii2-apns-gcm",
     "description": "Yii 2 Apns and Gcm together",
     "type": "yii2-extension",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "keywords": ["yii2"," extension"," apns"," gcm"],
     "license": "MIT",
     "authors": [
@@ -11,8 +11,8 @@
             "email": "bryantan16@gmail.com"
         },
 	{
-            "name": “Giovanni Arixi“,
-            "email": “garixi@cuoriilabs.com”
+            "name": "Giovanni Arixi",
+            "email": "garixi@cuoriilabs.com"
         }
     ],
     "require": {
