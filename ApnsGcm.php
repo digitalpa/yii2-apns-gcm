@@ -33,12 +33,7 @@ class ApnsGcm extends Component
     private $_gcmClient;
     private $_apnsClient;
 
-	/**
-	* 
-	*/
- 	public function __construct($apiKey){
-        $this->apiKey = $apiKey;
-    }
+
 
     /**
      * @return Gcm

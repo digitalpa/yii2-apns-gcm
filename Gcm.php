@@ -15,6 +15,13 @@ class Gcm extends AbstractApnsGcm
 
     private $_client = null;
 
+	/**
+	* 
+	*/
+ 	public function __construct($apiKey){
+        $this->apiKey = $apiKey;
+    }
+
     public function init()
     {
         if (!$this->apiKey) {
