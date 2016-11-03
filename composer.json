@@ -1,5 +1,5 @@
 {
-    "name": "garixi/yii2-apns-gcm",
+    "name": "digitalpa/yii2-apns-gcm",
     "description": "Yii 2 Apns and Gcm together",
     "type": "yii2-extension",
     "version": "1.0.4",
@@ -13,6 +13,10 @@
 	{
             "name": "Giovanni Arixi",
             "email": "garixi@cuoriilabs.com"
+        },
+	{
+            "name": "Andrea Puggioni",
+            "email": "a.puggioni@digitalpa.it"
         }
     ],
     "require": {
