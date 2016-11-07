@@ -180,7 +180,7 @@ class Apns extends AbstractApnsGcm
         foreach ($tokens as $token) {
             $message->addRecipient($token);
         }
-        $message->setText($text);
+        //$message->setText($text);
         foreach ($args as $method => $value) {
             if (strpos($message, 'set') === false) {
                 $method = 'set' . ucfirst($method);
@@ -188,6 +188,7 @@ class Apns extends AbstractApnsGcm
             $value = is_array($value) ? $value : [$value];
             call_user_func_array([$message, $method], $value);
         }
+	$message->setText($text);
         // set a custom payload data
         foreach ($payloadData as $key => $value) {
             $message->setCustomProperty($key, $value);
